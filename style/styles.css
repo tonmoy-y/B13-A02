@@ -1,0 +1,33 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+
+}
+
+.btn-primary {
+    background: linear-gradient(48deg, #F7E93F 16.53%, #FB09B4 49.82%, #9100F8 81.65%);
+}
+.btn-primary:hover {
+    background: linear-gradient(48deg, #F7E93F 16.53%, #FB09B4 49.82%, #9100F8 81.65%);
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+
+.text-and-box {
+  
+    gap: 20px;
+    border: 2px solid #000;
+}
+
+
+.microphone {
+position: absolute;
+    z-index: 3; 
+    top: 40%;
+   
+}
