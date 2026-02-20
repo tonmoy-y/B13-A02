@@ -156,10 +156,11 @@
     }
     .hero {
         margin: auto;
+        background-position: top;
     }
 
     .img-wrap {
-        margin-top:35% ;
+      
         max-width: 200px;
     }
     .circle {
