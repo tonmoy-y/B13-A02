@@ -86,7 +86,7 @@
     margin: 0 auto;
     padding: 13.28% 0;
     text-align: center;
-    /* border: 1px solid red; */
+    border: 1px solid red;
     margin: 0 auto;
 }
 
@@ -140,6 +140,278 @@
 
 
 
+/* about section */
+.aboutt {
+
+    background: #1A0B2E;
+}
+.about {
+    color: white;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: -100px;
+}
+
+.about h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.about .podcast-info p {
+    font-size: 1rem;
+   line-height: 32px;
+    padding-bottom: 80px;
+   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+
+}
+
+.about .number-box {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 80px;
+    padding-bottom: 120px;
+}
+
+.about .number-box .number-card h1{
+    color:#00FF88;
+    font-size:3rem;
+    font-weight: 900;
+
+}
+
+.about .number-box .number-card p {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 8px;
+}
+
+
+/* why choose us section */
+.why-choose-techwave {
+    background: #230E3D;
+    padding: 100px 0;
+    color: white;
+}
+.text-and-box  {
+    max-width: 1200px;
+    margin: 0 auto; 
+    
+
+}
+.text-and-box h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.box-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 225px 225px 273px;
+    gap: 30px;
+    
+}
+
+.box-container .box-card{
+    background: rgba(53, 17, 101, 0.4);
+    border-radius: 40px;
+    border: 1px solid rgba(53, 17, 101, 0.4);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 40px;
+}
+.box-card:nth-child(1) {
+    grid-row: 1 / span 2;
+}
+
+.box-card:nth-child(2) {
+    grid-column: 2 / span 2;
+}
+.box-card:nth-child(3) {
+    grid-column: 2 / span 2;
+}
+.box-card:nth-child(4) {
+    grid-column: 1 / span 2;
+}
+
+
+.box-container .box-card h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+
+
+.box-container .box-card p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.text-and-box h2, .alex-intro h2 {
+    font-size: 2rem;
+    margin-bottom: 16px;
+}
+
+/* featured */
+.featured, .meet-the-host {
+    background: #1A0B2E;
+    color: white;
+    padding:  100px 12.5%;
+    margin: 0 auto;
+}
+
+.featured h1, .meet-the-host h1{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.featured .video-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    max-width: 1200px;
+
+    
+}
+
+
+.featured .video-container .video-card {
+    background-color: #250D44;
+    border-radius: 24px;
+}
+
+.featured .video-container .video-card .video iframe{
+    width: 100%;
+    aspect-ratio: 16/9;
+    height: auto;
+    display: block;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+}
+.featured .video-container .video-card h4{
+    font-size: 1.5rem;
+    font-weight: 700;
+   margin: 24px 24px 12px 24px;
+}
+
+.featured .video-container .video-card p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 24px 24px 12px 24px;
+}
+
+
+.time {
+    color: #00FF88;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 24px;
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+   gap: 5px;
+}
+.time img{
+  width: 17px;
+    height: 17px;
+}
+
+
+.meet-the-host {
+     padding:  0 12.5%;
+     padding-bottom: 100px;
+
+}
+
+.alex {
+    background: rgba(53, 17, 101, 0.4);
+    border-radius: 40px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    padding: 40px;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+.alex .alex-image {
+    grid-column: 1 / span 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.alex .alex-intro {
+    grid-column: 2/span 4;
+
+}
+.alex .alex-intro p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+
+
+.alex-socials {
+    display: flex;
+    gap: 16px;
+}
+.alex-social .alex-social-container {
+    display: inline-flex;      
+  align-items: center;
+  justify-content: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #533C72;
+    border-radius: 50%;
+}
+
+.alex-social .alex-social-container img{
+    width: auto;
+    height: auto;
+}
+
+/* finally footer */
+
+footer {
+    background:  url(../assets/footer-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 12.5%;
+}
+
+footer .icons {
+    display: flex;
+    gap: 16px;
+ 
+}
+
+footer .icons .social-icon {
+    display: flex;
+    gap: 8px;
+    margin: 32px 0;
+}
+
+
+
+
+
 @media screen and (max-width: 576px) {
     .nav-items {
         display: none;
@@ -169,5 +441,101 @@
     .microphone {
         width: 25%;
     }
+    .about {
+        margin: -260px 10px 0 10px;
+    }
+    .about h1, .featured h1 {
+        font-size: 2rem;
+    }
+    .about .podcast-info p  {
+            padding-bottom: 40px;
+    }
+    .about .number-box {
+        grid-template-columns: repeat(2, 1fr);
+       gap: 40px;
+       margin-top: 40px;
+       padding-bottom: 40px ;
+    }
+.why-choose-techwave {
+    padding: 40px 0;
+}
+
+.text-and-box  {
+    margin: 0 20px; 
+}
+
+.box-container .box-card{ 
+    padding: 24px;
+    border-radius: 24px;
+}
+
+
+.box-container{
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5,1fr);
+    gap:16px;
+}
+.box-card:nth-child(1) {
+    grid-row: 1 / span 1;
+}
+
+
+
+.box-card:nth-child(2) {
+    grid-column: 1 / span 1;
+}
+.box-card:nth-child(3) {
+    grid-column: 1 / span 1;
+}
+.box-card:nth-child(4) {
+    grid-column: 1 / span 1;
+}
+.box-card:nth-child(5) {
+    grid-column: 1 / span 1;
+}
+
+
+
+.featured .video-container {
+    flex-direction: column;
+    gap:16px;
+}
+.featured  {
+     padding:  40px 4.5%;
+}
+
+.featured .video-container .video-card p {
+    font-size: 1.25rem;
+}
+
+.meet-the-host {
+     padding:  40px 4.5%;
+}
+.alex {
+  
+    grid-template-columns: repeat(1,1fr);
+    padding: 24px;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+}
+.alex .alex-image {
+    grid-column: 1 / span 1;
+
+}
+.alex .alex-intro {
+    grid-column: 1/span 1;
+
+}
+
+footer {
+    background-position: contain;
+}
+
+footer .icons {
+    flex-wrap: wrap;
+        justify-content: center;
+}
+
 
 }
