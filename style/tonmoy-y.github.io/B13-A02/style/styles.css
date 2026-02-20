@@ -11,12 +11,7 @@
     margin: 0;
     padding: 0;
 }
-.opacity-8 {
-    opacity: 0.8;
-}
-.opacity-6 {
-    opacity: 0.6;
-}
+
 .header {
     background: #1A0B2E;
     color: white;
@@ -34,7 +29,6 @@
 .nav-items {
     display: flex;
     gap: 32px;
-    opacity: .9;
     
 }
 .nav-items li {
@@ -92,7 +86,7 @@
     margin: 0 auto;
     padding: 13.28% 0;
     text-align: center;
-    /* border: 1px solid red; */
+    border: 1px solid red;
     margin: 0 auto;
 }
 
@@ -414,10 +408,6 @@ footer .icons .social-icon {
     margin: 32px 0;
 }
 
-footer .icons .social-icon p{
-    font-size: 1rem;
-    font-weight: 500;
-}
 
 
 
