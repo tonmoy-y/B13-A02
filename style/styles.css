@@ -96,6 +96,20 @@
     margin: 0 auto;
 }
 
+.new-container {
+    position: absolute;
+    top: 45%;
+    left: 58%;
+    transform: translateX(-50%);
+    background: #00FF88;
+    height: 35px;
+    width: 70px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #1A0B2E;
+    border-radius: 1000px;
+}
+
 .img-wrap {
     position: relative;
     display: flex;
@@ -230,7 +244,13 @@
     justify-content: center;
     align-items: flex-start;
     padding: 0 40px;
+    transition: all 0.3s ease;
 }
+.box-container .box-card :hover {
+  transform: translateY(-6px) scale(1.03);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.25);
+}
+
 .box-card:nth-child(1) {
     grid-row: 1 / span 2;
 }
@@ -393,6 +413,7 @@ footer {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    /* min-height: 100vh; */
     color: white;
     text-align: center;
     display: flex;
@@ -404,7 +425,7 @@ footer {
 
 footer .icons {
     display: flex;
-    gap: 16px;
+    gap: 20px;
  
 }
 
@@ -458,6 +479,10 @@ footer .icons  a {
     }
     .microphone {
         width: 25%;
+    }
+    .new-container {
+        top:20%;
+        left:65%;
     }
     .about {
         margin: -260px 10px 0 10px;
@@ -547,12 +572,20 @@ footer .icons  a {
 }
 
 footer {
-    background-position: contain;
+    background: url(../assets/Image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 30px 4.5%;
 }
 
 footer .icons {
     flex-wrap: wrap;
+    column-gap: 16px;
+    row-gap: 0px;
         justify-content: center;
+        align-items: center;
+        padding: 0 40px;
 }
 
 
